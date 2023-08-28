@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: backstage
-          image: spotify/backstage:latest
+          image: backstage:1.0.0
           env:
             - name: DATABASE_URL
               value: postgres://backstage_user:backstage_password@postgres:5432/backstage_db
